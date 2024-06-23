@@ -1,12 +1,52 @@
+import { Link } from "react-router-dom";
+import { useState } from "react";
+
 const Home = () => {
+  // State for the twinkling star effect
+  const [twinkle, setTwinkle] = useState(false);
+
+  // Function to toggle the twinkling effect
+  const handleTwinkle = () => {
+    setTwinkle(!twinkle);
+  };
+
   return (
-    <div className="text-center">
-      <h1 className="text-4xl font-bold">
-        Welcome to the Top 30 Bestseller Books Project
-      </h1>
-      <p className="mt-4 text-lg">
-        Discover the most popular books and their details.
-      </p>
+    <div className="relative min-h-screen bg-gradient-to-b from-indigo-900 via-purple-900 to-black text-white overflow-hidden">
+      {/* Overlay for the starry background */}
+      <div className="absolute inset-0 z-10">
+        {[...Array(100)].map((_, i) => (
+          <span
+            key={i}
+            className={`absolute rounded-full w-1 h-1 ${
+              twinkle ? "bg-white" : "bg-gray-800"
+            } opacity-${Math.random() * 100} animate-twinkle`}
+            style={{
+              top: `${Math.random() * 100}%`,
+              left: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 5}s`,
+            }}
+          ></span>
+        ))}
+      </div>
+
+      {/* Main content container */}
+      <div className="relative z-20 flex flex-col items-center justify-center min-h-screen">
+        <h1 className="text-6xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 mb-8">
+          Celestial Bazaar
+        </h1>
+        <p className="text-2xl md:text-3xl font-medium text-indigo-200 max-w-3xl text-center mb-12">
+          Discover a universe of literary wonders. Explore bestselling books
+          that will ignite your imagination and transport you to far-off realms.
+        </p>
+        <Link
+          to="/bestsellers"
+          className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold py-4 px-8 rounded-full text-xl shadow-lg transition duration-300 ease-in-out"
+          onMouseEnter={handleTwinkle} // Start twinkling on hover
+          onMouseLeave={handleTwinkle} // Stop twinkling when not hovering
+        >
+          Unveil the Stars
+        </Link>
+      </div>
     </div>
   );
 };
