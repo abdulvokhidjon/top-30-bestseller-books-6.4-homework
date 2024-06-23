@@ -16,6 +16,7 @@ function App() {
           <Route path="bestsellers" element={<Bestsellers />} />
           <Route path="bestsellers/:id" element={<BestsellersDetails />} />
           <Route path="about" element={<About />} />
+
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
         </Route>
