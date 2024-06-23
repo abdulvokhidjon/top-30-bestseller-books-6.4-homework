@@ -1,0 +1,214 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "image": "https://image.tmdb.org/t/p/original/d5rjKoyyXk6qattn0x3T31ImgCq.jpg",
+      "description": "A poignant tale of a young girl raised in the marshlands of North Carolina, navigating a world filled with mystery, love, and heartache."
+    },
+    {
+      "id": "2",
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkOWLYC6vShUY4LBinehzT3y15zbiT3qfC1Q&s",
+      "description": "A mesmerizing novel about a library beyond life where each book provides a chance to live another life you could have lived, and to see how things would be different."
+    },
+    {
+      "id": "3",
+      "title": "The Vanishing Half",
+      "author": "Brit Bennett",
+      "image": "https://static1.squarespace.com/static/6238ab351a866311a82c8104/6238ab8d0003dd0c089405e6/62424023e806a630915a5633/1648823944353/The+Vanishing+Half.jpg?format=1500w",
+      "description": "A multi-generational family saga that explores the lasting influence of the past as it shapes a person's decisions, desires, and expectations."
+    },
+    {
+      "id": "4",
+      "title": "The Four Winds",
+      "author": "Kristin Hannah",
+      "image": "https://ik.imagekit.io/panmac/tr:di-placeholder_portrait_aMjPtD9YZ.jpg,tr:w-350,f-jpg,pr-true/edition/9781529054583.jpg",
+      "description": "An epic novel of love and heroism and hope, set against the backdrop of one of America’s most defining eras—the Great Depression."
+    },
+    {
+      "id": "5",
+      "title": "A Promised Land",
+      "author": "Barack Obama",
+      "image": "https://assets.asaxiy.uz/product/items/desktop/c5f5c23be1b71adb51ea9dc8e9d444a8202205102244347792698jm1OOMy6.jpg.webp",
+      "description": "A riveting, deeply personal account of history in the making—from the president who inspired us to believe in the power of democracy."
+    },
+    {
+      "id": "6",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYTzonXYyV9QRWSFZsYMU6ca_jV8A4YGokYQ&s",
+      "description": "An easy and proven way to build good habits and break bad ones."
+    },
+    {
+      "id": "7",
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "image": "https://m.media-amazon.com/images/I/61R+Cpm+HxL._AC_UF1000,1000_QL80_.jpg",
+      "description": "A shocking psychological thriller of a woman's act of violence against her husband—and of the therapist obsessed with uncovering her motive."
+    },
+    {
+      "id": "8",
+      "title": "The Invisible Life of Addie LaRue",
+      "author": "V.E. Schwab",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-WhwQM5To_FiADkZJTKkgwvABZuqkNi0eiw&s",
+      "description": "A life no one will remember. A story you will never forget."
+    },
+    {
+      "id": "9",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "image": "https://m.media-amazon.com/images/I/61HAE8zahLL._AC_UF1000,1000_QL80_.jpg",
+      "description": "A global phenomenon, this story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure, is full of wisdom and wonder."
+    },
+    {
+      "id": "10",
+      "title": "Educated",
+      "author": "Tara Westover",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcuLipdReOGjslChgAkOoTA__dHAuugazLwA&s",
+      "description": "A memoir about a young girl who, kept out of school, leaves her survivalist family and goes on to earn a PhD from Cambridge University."
+    },
+    {
+      "id": "11",
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "image": "https://example.com/images/becoming.jpg",
+      "description": "An intimate, powerful, and inspiring memoir by the former First Lady of the United States."
+    },
+    {
+      "id": "12",
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "image": "https://example.com/images/the_book_thief.jpg",
+      "description": "A gripping, heart-wrenching novel about a young girl's survival during World War II in Nazi Germany."
+    },
+    {
+      "id": "13",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "image": "https://example.com/images/dune.jpg",
+      "description": "A stunning blend of adventure and mysticism, environmentalism and politics, Dune won the first Nebula Award, shared the Hugo Award, and formed the basis of what is undoubtedly the grandest epic in science fiction."
+    },
+    {
+      "id": "14",
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "image": "https://example.com/images/the_seven_husbands_of_evelyn_hugo.jpg",
+      "description": "A novel about an aging and reclusive Hollywood movie icon as she reflects on her relentless rise to the top and the risks she took, the loves she lost, and the long-held secrets the public could never imagine."
+    },
+    {
+      "id": "15",
+      "title": "Little Fires Everywhere",
+      "author": "Celeste Ng",
+      "image": "https://example.com/images/little_fires_everywhere.jpg",
+      "description": "A riveting novel that traces the intertwined fates of the picture-perfect Richardson family and the enigmatic mother and daughter who upend their lives."
+    },
+    {
+      "id": "16",
+      "title": "Circe",
+      "author": "Madeline Miller",
+      "image": "https://example.com/images/circe.jpg",
+      "description": "A bold and subversive retelling of the goddess's story, Circe is a triumph of storytelling, an intoxicating epic of family rivalry, palace intrigue, love, and loss."
+    },
+    {
+      "id": "17",
+      "title": "The Song of Achilles",
+      "author": "Madeline Miller",
+      "image": "https://example.com/images/the_song_of_achilles.jpg",
+      "description": "A thrilling and unique retelling of the legend of Achilles, this novel brings a tale of gods, kings, immortal fame, and the human heart."
+    },
+    {
+      "id": "18",
+      "title": "Normal People",
+      "author": "Sally Rooney",
+      "image": "https://example.com/images/normal_people.jpg",
+      "description": "A stunning novel about the transformative power of relationships."
+    },
+    {
+      "id": "19",
+      "title": "1984",
+      "author": "George Orwell",
+      "image": "https://example.com/images/1984.jpg",
+      "description": "A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism."
+    },
+    {
+      "id": "20",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://example.com/images/the_catcher_in_the_rye.jpg",
+      "description": "The novel's protagonist Holden Caulfield has become an icon for teenage rebellion."
+    },
+    {
+      "id": "21",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://example.com/images/to_kill_a_mockingbird.jpg",
+      "description": "A novel of warmth and humor, despite dealing with serious issues of rape and racial inequality."
+    },
+    {
+      "id": "22",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://example.com/images/the_great_gatsby.jpg",
+      "description": "The story of the fabulously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, of lavish parties on Long Island."
+    },
+    {
+      "id": "23",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "https://example.com/images/pride_and_prejudice.jpg",
+      "description": "The romantic clash of two opinionated people in an English country village."
+    },
+    {
+      "id": "24",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "image": "https://example.com/images/harry_potter_and_the_sorcerers_stone.jpg",
+      "description": "Harry Potter discovers he is a wizard on his 11th birthday and sets off to attend the Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+      "id": "25",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "image": "https://example.com/images/the_hobbit.jpg",
+      "description": "Bilbo Baggins sets off on an unexpected journey through Middle-earth to reclaim a lost kingdom."
+    },
+    {
+      "id": "26",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "image": "https://example.com/images/fahrenheit_451.jpg",
+      "description": "A dystopian novel set in a future where books are outlawed and 'firemen' burn any that are found."
+    },
+    {
+      "id": "27",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "image": "https://example.com/images/brave_new_world.jpg",
+      "description": "A dystopian novel set in a future society driven by technological and scientific advances."
+    },
+    {
+      "id": "28",
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "image": "https://example.com/images/the_road.jpg",
+      "description": "A post-apocalyptic novel about a father and his young son traversing a desolate landscape."
+    },
+    {
+      "id": "29",
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "image": "https://example.com/images/gone_girl.jpg",
+      "description": "A thriller that explores the nature of marriage and the dangerous secrets that can lie beneath."
+    },
+    {
+      "id": "30",
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "image": "https://example.com/images/the_handmaids_tale.jpg",
+      "description": "A dystopian novel set in a near-future totalitarian state where women are subjugated."
+    }
+  ]
+}
