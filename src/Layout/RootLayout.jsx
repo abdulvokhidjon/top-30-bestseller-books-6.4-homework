@@ -47,7 +47,7 @@ const RootLayout = () => {
               href="https://github.com/abdulvokhidjon?tab=repositories" 
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm sm:text-base hover:text-indigo-100 transition duration-300"
+              className="text-3xl text-sm sm:text-base hover:text-indigo-100 transition duration-300"
             >
               Powered by Abdulvohid
             </a>
