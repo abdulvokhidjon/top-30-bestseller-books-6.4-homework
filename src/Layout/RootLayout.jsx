@@ -44,10 +44,10 @@ const RootLayout = () => {
         <footer className="bg-gradient-to-r from-blue-900 via-purple-900 to-indigo-900 p-4">
           <div className="container mx-auto text-center">
             <a
-              href="https://github.com/abdulvokhidjon?tab=repositories" 
+              href="https://github.com/abdulvokhidjon?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-3xl text-sm sm:text-base hover:text-indigo-100 transition duration-300"
+              className="text-3xl hover:text-indigo-100 transition duration-300"
             >
               Powered by Abdulvohid
             </a>
