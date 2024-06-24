@@ -10,7 +10,6 @@ const Home = () => {
 
   return (
     <div className="relative min-h-screen bg-gradient-to-b from-indigo-900 via-purple-900 to-black text-white overflow-hidden">
-      {/* Overlay for the starry background */}
       <div className="absolute inset-0 z-10">
         {[...Array(100)].map((_, i) => (
           <span

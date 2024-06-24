@@ -13,7 +13,7 @@ const About = () => {
         </p>
 
         <p className="text-lg md:text-xl text-indigo-200 leading-relaxed mb-8">
-          Our carefully selected collection of the top 30 bestselling books
+          Our carefully selected collection of the top 20 bestselling books
           represents a constellation of genres and voices, each one ready to
           ignite your imagination.
         </p>
