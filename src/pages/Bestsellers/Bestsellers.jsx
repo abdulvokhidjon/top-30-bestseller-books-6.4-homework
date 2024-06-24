@@ -3,7 +3,9 @@ import useFetch from "../../Hooks/useFetch";
 import { useState, useEffect } from "react";
 
 const Bestsellers = () => {
-  const { data: books, error } = useFetch(" https://online-json-server-api.up.railway.app/project/66783b6f1d2cd3eb1143f800/books");
+  const { data: books, error } = useFetch(
+    " https://online-json-server-api.up.railway.app/project/66783b6f1d2cd3eb1143f800/books"
+  );
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
