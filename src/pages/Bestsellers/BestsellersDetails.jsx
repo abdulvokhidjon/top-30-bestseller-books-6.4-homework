@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 const BestsellersDetails = () => {
   const { id } = useParams();
   const { data: book, error } = useFetch(
-    ` https://online-json-server-api.up.railway.app/project/66783b6f1d2cd3eb1143f800/books/${id}`
+    `https://online-json-server-api.up.railway.app/project/66783b6f1d2cd3eb1143f800/books${id}`
   );
   const [loading, setLoading] = useState(true);
 

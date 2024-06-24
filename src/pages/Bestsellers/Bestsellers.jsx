@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 const Bestsellers = () => {
   const { data: books, error } = useFetch(
-    " https://online-json-server-api.up.railway.app/project/66783b6f1d2cd3eb1143f800/books"
+    "https://online-json-server-api.up.railway.app/project/66783b6f1d2cd3eb1143f800/books"
   );
   const [loading, setLoading] = useState(true);
 
@@ -38,7 +38,7 @@ const Bestsellers = () => {
         Top 20 Bestseller Books
       </h2>
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-        {books.map((book) => (
+        {books.data.map((book) => (
           <li
             key={book.id}
             className="transform hover:-translate-y-2 transition duration-300 ease-in-out"
@@ -54,7 +54,6 @@ const Bestsellers = () => {
                   className="w-full h-64 object-cover rounded-lg shadow-md transform group-hover:scale-105 transition duration-300 ease-in-out"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out"></div>{" "}
-                {/* Overlay effect */}
               </div>
               <div className="mt-4 text-center">
                 <h3 className="text-lg md:text-xl font-bold text-indigo-200 group-hover:text-white transition duration-300 ease-in-out">
