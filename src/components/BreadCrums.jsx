@@ -16,9 +16,9 @@ function BreadCrums() {
             to={currentLink.join("")}
             className="hover:text-indigo-100 transition duration-300"
           >
-            {crumb.replace(/%20/g, " ")} {/* Replace %20 with space */}
+            {crumb.replace(/%20/g, " ")}
           </Link>
-          <span className="text-gray-500 mx-2">/</span> {/* Add a separator */}
+          <span className="text-gray-500 mx-2">/</span>
         </div>
       );
     });
@@ -26,7 +26,6 @@ function BreadCrums() {
   return (
     <div className="breadcrumbs text-sm sm:text-base py-4 px-4 sm:px-6 lg:px-8 bg-gray-900">
       {" "}
-      {/* Add styling */}
       {crumbs}
     </div>
   );
