@@ -11,7 +11,6 @@ const Bestsellers = () => {
       setLoading(false);
     }
   }, [books]);
-  
 
   if (error)
     return (
