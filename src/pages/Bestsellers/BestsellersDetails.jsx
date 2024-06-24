@@ -4,14 +4,18 @@ import { useState, useEffect } from "react";
 
 const BestsellersDetails = () => {
   const { id } = useParams();
- const { data: book, error } = useFetch(`https://online-json-server-api.up.railway.app/project/66783b6f1d2cd3eb1143f800/books?id=${id}`);
+  const { data: response, error } = useFetch(
+    `https://online-json-server-api.up.railway.app/project/66783b6f1d2cd3eb1143f800/books?id=${id}`
+  );
   const [loading, setLoading] = useState(true);
+  const [book, setBook] = useState(null);
 
   useEffect(() => {
-    if (book) {
+    if (response && response.data.length > 0) {
+      setBook(response.data[0]);
       setLoading(false);
     }
-  }, [book]);
+  }, [response]);
 
   if (error)
     return (
@@ -23,6 +27,7 @@ const BestsellersDetails = () => {
         <span className="block sm:inline"> Error loading book details.</span>
       </div>
     );
+
   if (loading)
     return (
       <div className="flex justify-center items-center h-64">
